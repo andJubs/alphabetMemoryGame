@@ -120,7 +120,7 @@ const createCard = (letter) => {
     const front = createElement('div', 'default-card front');
     const back = createElement('div', 'default-card back');
 
-    front.style.backgroundImage = `url('../images/${letter}.png')`;
+    front.style.backgroundImage = `url('images/${letter}.png')`;
 
     card.appendChild(front);
     card.appendChild(back);
